@@ -1,0 +1,60 @@
+/******************************************************************************
+Navbar
+******************************************************************************/
+.navbar-default {
+	background-color: white;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: none;
+	border-right: none;
+}
+
+.navbar {
+	min-height: 32px !important;
+}
+
+@media (min-width: 768px) {
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
+	
+	.navbar .navbar-collapse {
+		text-align: center;
+	}
+}
+
+#myNavbar li > a {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	color: #707070;
+	-webkit-transition: all ease .3s;
+       -moz-transition: all ease .3s;
+         -o-transition: all ease .3s;
+            transition: all ease .3s;
+}
+
+#myNavbar li > a:hover {
+	background-color: transparent;
+	color: black;
+	text-shadow: 0 0 3px #7FA1FF;
+}
+
+/******************************************************************************
+Header
+******************************************************************************/
+#header {
+	width: 200px;
+	height: auto;
+}
+
+#headPic {
+	display: block;
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15%;
+	width: 100%;
+	height: auto;
+}
